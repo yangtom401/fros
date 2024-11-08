@@ -34,7 +34,7 @@ jobs:
       - name: Build Firmware
         run: |
           cd fros
-          ./build.sh -l psg1208
+          ./build.sh -l x86_64  
 
       - name: Create Release
         id: create_release
